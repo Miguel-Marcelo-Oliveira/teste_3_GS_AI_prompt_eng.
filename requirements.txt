@@ -1,0 +1,11 @@
+# Mission Control AI — EnviroSat
+# Dependências fixadas para reprodutibilidade
+
+# Core da stack obrigatória
+ollama==0.6.2
+python-dotenv==1.2.2
+
+# Interface CLI estilo Claude Code
+rich==15.0.0
+prompt-toolkit==3.0.52
+pyfiglet==1.0.4

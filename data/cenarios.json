@@ -1,0 +1,84 @@
+{
+  "cenarios": [
+    {
+      "id": "normal",
+      "descricao": "Operação normal — todos os parâmetros dentro do range ideal",
+      "parametros": {
+        "sensor_termico_celsius": 34.2,
+        "sensor_optico_qualidade": 91.5,
+        "buffer_imagens_pct": 42.0,
+        "geolocalizacao_precisao_m": 12.3,
+        "energia_disponivel_pct": 78.6
+      },
+      "perguntas_sugeridas": [
+        "Como está a missão?",
+        "Tudo normal com o satélite?",
+        "Alguma área em risco hoje?"
+      ]
+    },
+    {
+      "id": "incendio",
+      "descricao": "Foco de incêndio ativo detectado na Amazônia",
+      "parametros": {
+        "sensor_termico_celsius": 87.4,
+        "sensor_optico_qualidade": 63.0,
+        "buffer_imagens_pct": 74.2,
+        "geolocalizacao_precisao_m": 18.1,
+        "energia_disponivel_pct": 64.0
+      },
+      "perguntas_sugeridas": [
+        "Tá pegando fogo onde? O que eu faço?",
+        "Qual a situação do incêndio?",
+        "Preciso acionar as brigadas?"
+      ]
+    },
+    {
+      "id": "energia_critica",
+      "descricao": "Satélite em modo de economia de energia — risco de blackout",
+      "parametros": {
+        "sensor_termico_celsius": 28.5,
+        "sensor_optico_qualidade": 55.0,
+        "buffer_imagens_pct": 61.3,
+        "geolocalizacao_precisao_m": 44.7,
+        "energia_disponivel_pct": 14.2
+      },
+      "perguntas_sugeridas": [
+        "Posso manter os sensores ativos?",
+        "Qual a situação da energia?",
+        "Quanto tempo até o satélite entrar em blackout?"
+      ]
+    },
+    {
+      "id": "buffer_cheio",
+      "descricao": "Buffer de imagens saturado — perda de dados iminente",
+      "parametros": {
+        "sensor_termico_celsius": 41.0,
+        "sensor_optico_qualidade": 88.3,
+        "buffer_imagens_pct": 96.5,
+        "geolocalizacao_precisao_m": 15.0,
+        "energia_disponivel_pct": 67.4
+      },
+      "perguntas_sugeridas": [
+        "Estamos perdendo imagens?",
+        "Preciso fazer o downlink agora?",
+        "Qual o risco de perder dados?"
+      ]
+    },
+    {
+      "id": "degradacao_optica",
+      "descricao": "Sensor óptico severamente degradado — possível impacto de micrometeoro",
+      "parametros": {
+        "sensor_termico_celsius": 37.8,
+        "sensor_optico_qualidade": 22.0,
+        "buffer_imagens_pct": 38.0,
+        "geolocalizacao_precisao_m": 120.5,
+        "energia_disponivel_pct": 58.0
+      },
+      "perguntas_sugeridas": [
+        "O que aconteceu com o sensor óptico?",
+        "Consigo monitorar desmatamento assim?",
+        "Qual o impacto para o PRODES?"
+      ]
+    }
+  ]
+}
