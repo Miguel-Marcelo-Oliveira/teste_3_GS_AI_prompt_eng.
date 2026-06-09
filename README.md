@@ -102,11 +102,7 @@ python main.py
 
 ## Demonstração
 
-> *Substitua pelas screenshots reais do sistema rodando no seu terminal.*
-
-[Banner e status normal da missão](assets/screenshot_banner.png)
-
-[IA analisando cenário de incêndio](assets/screenshot_analise.png)
+As screenshots do sistema funcionando estão disponíveis em `assets`
 
 ---
 
