@@ -11,6 +11,7 @@
 |----------------------------------------|--------|-------|
 | Miguel Marcelo Alves Ramos de Oliveira | 569467 | 1CCPI |
 | Felipe de Oliveira Doern               | 568798 | 1CCPI |
+
 **Modalidade:** Dupla
 
 ---
