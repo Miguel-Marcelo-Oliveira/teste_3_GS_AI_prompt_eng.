@@ -169,11 +169,6 @@ Se o EnviroSat-BR1 operar 100% saudável por 1 ano:
 - **Modelo não-determinístico:** respostas podem variar entre execuções com os mesmos dados. O system prompt foi ajustado para minimizar variação, mas leituras extremas ainda ocorrem ocasionalmente.
 - **Interface apenas CLI:** não há dashboard web ou visualização gráfica de séries temporais (foi priorizado o motor de análise sobre a camada visual).
 
----
-
-## Demonstração
-![Status normal da missão](assets/Screenshot 2026-06-09 181452.png)
-![Alerta crítico com análise da IA](assets/Screenshot 2026-06-09 181528.png)
 
 ---
 
