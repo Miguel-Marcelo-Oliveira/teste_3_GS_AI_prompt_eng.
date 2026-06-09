@@ -174,6 +174,12 @@ Se o EnviroSat-BR1 operar 100% saudável por 1 ano:
 
 ---
 
+## Demonstração
+![Status normal da missão](assets/Screenshot 2026-06-09 181452.png)
+![Alerta crítico com análise da IA](assets/Screenshot 2026-06-09 181528.png)
+
+---
+
 ## Vídeo de demonstração
 [https://youtu.be/v94nk7ov7ck](https://youtu.be/v94nk7ov7ck)
 
